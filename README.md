@@ -17,7 +17,7 @@ This app fetches **live exchange rates** and allows users to **convert between m
 ---
 
 🖼️ Preview  
-`![Currency Converter Screenshot](screenshot.png)`
+![Currency Converter Screenshot](Screenshot_(35).png)
 
 ---
 
