@@ -40,9 +40,23 @@ function InputBox({selectName, state, commonState, label, currencyoption = [], s
          
 
     }  
+    
+    function setInputstateFun(e){
+        console.log(e.target.value)
+        let value = Number(e.target.value);
+        console.log(value); 
 
-     
-  
+        if(Number.isNaN(value)){                       
+            console.log("inside if block")
+            return;
+        }
+        else{
+            console.log("Inside else block")
+            setInputstate(Number(e.target.value))
+            calculate(Number(e.target.value))
+        }
+         
+    }
     
 
     return(       
